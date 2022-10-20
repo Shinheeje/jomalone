@@ -1,0 +1,41 @@
+.title {
+}
+.title_Wrap {
+  position: relative;
+}
+.title_Wrap > video {
+  width: 100%;
+}
+.title_text {
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  width: 40%;
+  text-align: center;
+}
+.title_text h2 {
+  font-size: 28px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Gowun Batang", serif;
+}
+.title_text h2 a {
+  text-align: center;
+}
+.title_text p {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-family: "Gowun Batang", serif;
+}
+.title_text a.more {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 900;
+}
+.title_text a.more:hover {
+  border-bottom: 1px solid black;
+}
